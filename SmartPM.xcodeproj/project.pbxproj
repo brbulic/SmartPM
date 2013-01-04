@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D9BBDF01696FF9B00E3E553 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9BBDEF1696FF9B00E3E553 /* Foundation.framework */; };
+		0D9BBDF51696FF9B00E3E553 /* SmartPM.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0D9BBDF41696FF9B00E3E553 /* SmartPM.h */; };
+		0D9BBDF71696FF9B00E3E553 /* SmartPM.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BBDF61696FF9B00E3E553 /* SmartPM.m */; };
+		0D9BBDFF1696FF9B00E3E553 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9BBDFE1696FF9B00E3E553 /* SenTestingKit.framework */; };
+		0D9BBE011696FF9B00E3E553 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9BBE001696FF9B00E3E553 /* UIKit.framework */; };
+		0D9BBE021696FF9B00E3E553 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9BBDEF1696FF9B00E3E553 /* Foundation.framework */; };
+		0D9BBE051696FF9B00E3E553 /* libSmartPM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9BBDEC1696FF9B00E3E553 /* libSmartPM.a */; };
+		0D9BBE0B1696FF9B00E3E553 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D9BBE091696FF9B00E3E553 /* InfoPlist.strings */; };
+		0D9BBE0E1696FF9B00E3E553 /* SmartPMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BBE0D1696FF9B00E3E553 /* SmartPMTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D9BBE031696FF9B00E3E553 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D9BBDE31696FF9B00E3E553 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D9BBDEB1696FF9B00E3E553;
+			remoteInfo = SmartPM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0D9BBDEA1696FF9B00E3E553 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				0D9BBDF51696FF9B00E3E553 /* SmartPM.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D9BBDEC1696FF9B00E3E553 /* libSmartPM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSmartPM.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9BBDEF1696FF9B00E3E553 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0D9BBDF31696FF9B00E3E553 /* SmartPM-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartPM-Prefix.pch"; sourceTree = "<group>"; };
+		0D9BBDF41696FF9B00E3E553 /* SmartPM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartPM.h; sourceTree = "<group>"; };
+		0D9BBDF61696FF9B00E3E553 /* SmartPM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartPM.m; sourceTree = "<group>"; };
+		0D9BBDFD1696FF9B00E3E553 /* SmartPMTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartPMTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9BBDFE1696FF9B00E3E553 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0D9BBE001696FF9B00E3E553 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0D9BBE081696FF9B00E3E553 /* SmartPMTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartPMTests-Info.plist"; sourceTree = "<group>"; };
+		0D9BBE0A1696FF9B00E3E553 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D9BBE0C1696FF9B00E3E553 /* SmartPMTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartPMTests.h; sourceTree = "<group>"; };
+		0D9BBE0D1696FF9B00E3E553 /* SmartPMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartPMTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D9BBDE91696FF9B00E3E553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9BBDF01696FF9B00E3E553 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D9BBDF91696FF9B00E3E553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9BBDFF1696FF9B00E3E553 /* SenTestingKit.framework in Frameworks */,
+				0D9BBE011696FF9B00E3E553 /* UIKit.framework in Frameworks */,
+				0D9BBE021696FF9B00E3E553 /* Foundation.framework in Frameworks */,
+				0D9BBE051696FF9B00E3E553 /* libSmartPM.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D9BBDE11696FF9B00E3E553 = {
+			isa = PBXGroup;
+			children = (
+				0D9BBDF11696FF9B00E3E553 /* SmartPM */,
+				0D9BBE061696FF9B00E3E553 /* SmartPMTests */,
+				0D9BBDEE1696FF9B00E3E553 /* Frameworks */,
+				0D9BBDED1696FF9B00E3E553 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D9BBDED1696FF9B00E3E553 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D9BBDEC1696FF9B00E3E553 /* libSmartPM.a */,
+				0D9BBDFD1696FF9B00E3E553 /* SmartPMTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D9BBDEE1696FF9B00E3E553 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D9BBDEF1696FF9B00E3E553 /* Foundation.framework */,
+				0D9BBDFE1696FF9B00E3E553 /* SenTestingKit.framework */,
+				0D9BBE001696FF9B00E3E553 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D9BBDF11696FF9B00E3E553 /* SmartPM */ = {
+			isa = PBXGroup;
+			children = (
+				0D9BBDF41696FF9B00E3E553 /* SmartPM.h */,
+				0D9BBDF61696FF9B00E3E553 /* SmartPM.m */,
+				0D9BBDF21696FF9B00E3E553 /* Supporting Files */,
+			);
+			path = SmartPM;
+			sourceTree = "<group>";
+		};
+		0D9BBDF21696FF9B00E3E553 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D9BBDF31696FF9B00E3E553 /* SmartPM-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D9BBE061696FF9B00E3E553 /* SmartPMTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D9BBE0C1696FF9B00E3E553 /* SmartPMTests.h */,
+				0D9BBE0D1696FF9B00E3E553 /* SmartPMTests.m */,
+				0D9BBE071696FF9B00E3E553 /* Supporting Files */,
+			);
+			path = SmartPMTests;
+			sourceTree = "<group>";
+		};
+		0D9BBE071696FF9B00E3E553 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D9BBE081696FF9B00E3E553 /* SmartPMTests-Info.plist */,
+				0D9BBE091696FF9B00E3E553 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D9BBDEB1696FF9B00E3E553 /* SmartPM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D9BBE111696FF9B00E3E553 /* Build configuration list for PBXNativeTarget "SmartPM" */;
+			buildPhases = (
+				0D9BBDE81696FF9B00E3E553 /* Sources */,
+				0D9BBDE91696FF9B00E3E553 /* Frameworks */,
+				0D9BBDEA1696FF9B00E3E553 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartPM;
+			productName = SmartPM;
+			productReference = 0D9BBDEC1696FF9B00E3E553 /* libSmartPM.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0D9BBDFC1696FF9B00E3E553 /* SmartPMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D9BBE141696FF9B00E3E553 /* Build configuration list for PBXNativeTarget "SmartPMTests" */;
+			buildPhases = (
+				0D9BBDF81696FF9B00E3E553 /* Sources */,
+				0D9BBDF91696FF9B00E3E553 /* Frameworks */,
+				0D9BBDFA1696FF9B00E3E553 /* Resources */,
+				0D9BBDFB1696FF9B00E3E553 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D9BBE041696FF9B00E3E553 /* PBXTargetDependency */,
+			);
+			name = SmartPMTests;
+			productName = SmartPMTests;
+			productReference = 0D9BBDFD1696FF9B00E3E553 /* SmartPMTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D9BBDE31696FF9B00E3E553 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Pinjamar d.o.o";
+			};
+			buildConfigurationList = 0D9BBDE61696FF9B00E3E553 /* Build configuration list for PBXProject "SmartPM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0D9BBDE11696FF9B00E3E553;
+			productRefGroup = 0D9BBDED1696FF9B00E3E553 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D9BBDEB1696FF9B00E3E553 /* SmartPM */,
+				0D9BBDFC1696FF9B00E3E553 /* SmartPMTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D9BBDFA1696FF9B00E3E553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9BBE0B1696FF9B00E3E553 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D9BBDFB1696FF9B00E3E553 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D9BBDE81696FF9B00E3E553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9BBDF71696FF9B00E3E553 /* SmartPM.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D9BBDF81696FF9B00E3E553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9BBE0E1696FF9B00E3E553 /* SmartPMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D9BBE041696FF9B00E3E553 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D9BBDEB1696FF9B00E3E553 /* SmartPM */;
+			targetProxy = 0D9BBE031696FF9B00E3E553 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D9BBE091696FF9B00E3E553 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D9BBE0A1696FF9B00E3E553 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D9BBE0F1696FF9B00E3E553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D9BBE101696FF9B00E3E553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D9BBE121696FF9B00E3E553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SmartPM.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartPM/SmartPM-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0D9BBE131696FF9B00E3E553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SmartPM.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartPM/SmartPM-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0D9BBE151696FF9B00E3E553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartPM/SmartPM-Prefix.pch";
+				INFOPLIST_FILE = "SmartPMTests/SmartPMTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0D9BBE161696FF9B00E3E553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartPM/SmartPM-Prefix.pch";
+				INFOPLIST_FILE = "SmartPMTests/SmartPMTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D9BBDE61696FF9B00E3E553 /* Build configuration list for PBXProject "SmartPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9BBE0F1696FF9B00E3E553 /* Debug */,
+				0D9BBE101696FF9B00E3E553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D9BBE111696FF9B00E3E553 /* Build configuration list for PBXNativeTarget "SmartPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9BBE121696FF9B00E3E553 /* Debug */,
+				0D9BBE131696FF9B00E3E553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0D9BBE141696FF9B00E3E553 /* Build configuration list for PBXNativeTarget "SmartPMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9BBE151696FF9B00E3E553 /* Debug */,
+				0D9BBE161696FF9B00E3E553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D9BBDE31696FF9B00E3E553 /* Project object */;
+}
