@@ -8,14 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		0D9BBDF01696FF9B00E3E553 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9BBDEF1696FF9B00E3E553 /* Foundation.framework */; };
-		0D9BBDF51696FF9B00E3E553 /* SmartPM.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0D9BBDF41696FF9B00E3E553 /* SmartPM.h */; };
-		0D9BBDF71696FF9B00E3E553 /* SmartPM.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BBDF61696FF9B00E3E553 /* SmartPM.m */; };
 		0D9BBDFF1696FF9B00E3E553 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9BBDFE1696FF9B00E3E553 /* SenTestingKit.framework */; };
 		0D9BBE011696FF9B00E3E553 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9BBE001696FF9B00E3E553 /* UIKit.framework */; };
 		0D9BBE021696FF9B00E3E553 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9BBDEF1696FF9B00E3E553 /* Foundation.framework */; };
 		0D9BBE051696FF9B00E3E553 /* libSmartPM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9BBDEC1696FF9B00E3E553 /* libSmartPM.a */; };
 		0D9BBE0B1696FF9B00E3E553 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D9BBE091696FF9B00E3E553 /* InfoPlist.strings */; };
 		0D9BBE0E1696FF9B00E3E553 /* SmartPMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BBE0D1696FF9B00E3E553 /* SmartPMTests.m */; };
+		0D9BBE351697010100E3E553 /* PMCellFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BBE1A1697010100E3E553 /* PMCellFramework.m */; };
+		0D9BBE361697010100E3E553 /* PMCellBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BBE1E1697010100E3E553 /* PMCellBase.m */; };
+		0D9BBE371697010100E3E553 /* MMBatteryDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BBE211697010100E3E553 /* MMBatteryDataHelper.m */; };
+		0D9BBE381697010100E3E553 /* MMDeviceHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BBE231697010100E3E553 /* MMDeviceHelpers.m */; };
+		0D9BBE391697010100E3E553 /* MMUUIDHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BBE261697010100E3E553 /* MMUUIDHelpers.m */; };
+		0D9BBE3A1697010100E3E553 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BBE281697010100E3E553 /* NSString+MD5Addition.m */; };
+		0D9BBE3B1697010100E3E553 /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BBE2A1697010100E3E553 /* UIDevice+IdentifierAddition.m */; };
+		0D9BBE3C1697010100E3E553 /* MMExceptionUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BBE2D1697010100E3E553 /* MMExceptionUtils.m */; };
+		0D9BBE3D1697010100E3E553 /* MMDomainObjectBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BBE311697010100E3E553 /* MMDomainObjectBase.m */; };
+		0D9BBE3E1697010100E3E553 /* MMObservableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BBE341697010100E3E553 /* MMObservableObject.m */; };
+		0D9BBE401697015100E3E553 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9BBE3F1697015100E3E553 /* CoreLocation.framework */; };
+		0D9BBE421697016400E3E553 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9BBE411697016400E3E553 /* UIKit.framework */; };
+		0D9BBE45169701AE00E3E553 /* UIDeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BBE44169701AE00E3E553 /* UIDeviceHardware.m */; };
+		0D9BBE491697021700E3E553 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BBE481697021700E3E553 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +47,6 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				0D9BBDF51696FF9B00E3E553 /* SmartPM.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +56,6 @@
 		0D9BBDEC1696FF9B00E3E553 /* libSmartPM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSmartPM.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D9BBDEF1696FF9B00E3E553 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0D9BBDF31696FF9B00E3E553 /* SmartPM-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartPM-Prefix.pch"; sourceTree = "<group>"; };
-		0D9BBDF41696FF9B00E3E553 /* SmartPM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartPM.h; sourceTree = "<group>"; };
-		0D9BBDF61696FF9B00E3E553 /* SmartPM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartPM.m; sourceTree = "<group>"; };
 		0D9BBDFD1696FF9B00E3E553 /* SmartPMTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartPMTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D9BBDFE1696FF9B00E3E553 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		0D9BBE001696FF9B00E3E553 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -54,6 +63,36 @@
 		0D9BBE0A1696FF9B00E3E553 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0D9BBE0C1696FF9B00E3E553 /* SmartPMTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartPMTests.h; sourceTree = "<group>"; };
 		0D9BBE0D1696FF9B00E3E553 /* SmartPMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartPMTests.m; sourceTree = "<group>"; };
+		0D9BBE191697010100E3E553 /* PMCellFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMCellFramework.h; sourceTree = "<group>"; };
+		0D9BBE1A1697010100E3E553 /* PMCellFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMCellFramework.m; sourceTree = "<group>"; };
+		0D9BBE1B1697010100E3E553 /* PMCellProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMCellProtocols.h; sourceTree = "<group>"; };
+		0D9BBE1C1697010100E3E553 /* PMTableViewDelegate+ProtectedMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PMTableViewDelegate+ProtectedMethods.h"; sourceTree = "<group>"; };
+		0D9BBE1D1697010100E3E553 /* PMCellBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMCellBase.h; sourceTree = "<group>"; };
+		0D9BBE1E1697010100E3E553 /* PMCellBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMCellBase.m; sourceTree = "<group>"; };
+		0D9BBE201697010100E3E553 /* MMBatteryDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMBatteryDataHelper.h; sourceTree = "<group>"; };
+		0D9BBE211697010100E3E553 /* MMBatteryDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMBatteryDataHelper.m; sourceTree = "<group>"; };
+		0D9BBE221697010100E3E553 /* MMDeviceHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDeviceHelpers.h; sourceTree = "<group>"; };
+		0D9BBE231697010100E3E553 /* MMDeviceHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDeviceHelpers.m; sourceTree = "<group>"; };
+		0D9BBE251697010100E3E553 /* MMUUIDHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMUUIDHelpers.h; sourceTree = "<group>"; };
+		0D9BBE261697010100E3E553 /* MMUUIDHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMUUIDHelpers.m; sourceTree = "<group>"; };
+		0D9BBE271697010100E3E553 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
+		0D9BBE281697010100E3E553 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
+		0D9BBE291697010100E3E553 /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
+		0D9BBE2A1697010100E3E553 /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
+		0D9BBE2C1697010100E3E553 /* MMExceptionUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExceptionUtils.h; sourceTree = "<group>"; };
+		0D9BBE2D1697010100E3E553 /* MMExceptionUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExceptionUtils.m; sourceTree = "<group>"; };
+		0D9BBE2F1697010100E3E553 /* MMDomainObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDomainObject.h; sourceTree = "<group>"; };
+		0D9BBE301697010100E3E553 /* MMDomainObjectBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDomainObjectBase.h; sourceTree = "<group>"; };
+		0D9BBE311697010100E3E553 /* MMDomainObjectBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDomainObjectBase.m; sourceTree = "<group>"; };
+		0D9BBE321697010100E3E553 /* MMObservableObject+ProtectedMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMObservableObject+ProtectedMethods.h"; sourceTree = "<group>"; };
+		0D9BBE331697010100E3E553 /* MMObservableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMObservableObject.h; sourceTree = "<group>"; };
+		0D9BBE341697010100E3E553 /* MMObservableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMObservableObject.m; sourceTree = "<group>"; };
+		0D9BBE3F1697015100E3E553 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0D9BBE411697016400E3E553 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0D9BBE43169701AE00E3E553 /* UIDeviceHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDeviceHardware.h; sourceTree = "<group>"; };
+		0D9BBE44169701AE00E3E553 /* UIDeviceHardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDeviceHardware.m; sourceTree = "<group>"; };
+		0D9BBE471697021700E3E553 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		0D9BBE481697021700E3E553 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +100,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D9BBE421697016400E3E553 /* UIKit.framework in Frameworks */,
+				0D9BBE401697015100E3E553 /* CoreLocation.framework in Frameworks */,
 				0D9BBDF01696FF9B00E3E553 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +142,8 @@
 		0D9BBDEE1696FF9B00E3E553 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0D9BBE411697016400E3E553 /* UIKit.framework */,
+				0D9BBE3F1697015100E3E553 /* CoreLocation.framework */,
 				0D9BBDEF1696FF9B00E3E553 /* Foundation.framework */,
 				0D9BBDFE1696FF9B00E3E553 /* SenTestingKit.framework */,
 				0D9BBE001696FF9B00E3E553 /* UIKit.framework */,
@@ -111,8 +154,11 @@
 		0D9BBDF11696FF9B00E3E553 /* SmartPM */ = {
 			isa = PBXGroup;
 			children = (
-				0D9BBDF41696FF9B00E3E553 /* SmartPM.h */,
-				0D9BBDF61696FF9B00E3E553 /* SmartPM.m */,
+				0D9BBE461697021700E3E553 /* JSONKit */,
+				0D9BBE171697010100E3E553 /* TableViewFramework */,
+				0D9BBE1F1697010100E3E553 /* Helpers */,
+				0D9BBE2B1697010100E3E553 /* Utils */,
+				0D9BBE2E1697010100E3E553 /* ModelFramework */,
 				0D9BBDF21696FF9B00E3E553 /* Supporting Files */,
 			);
 			path = SmartPM;
@@ -143,6 +189,85 @@
 				0D9BBE091696FF9B00E3E553 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D9BBE171697010100E3E553 /* TableViewFramework */ = {
+			isa = PBXGroup;
+			children = (
+				0D9BBE181697010100E3E553 /* CellFramework */,
+				0D9BBE1D1697010100E3E553 /* PMCellBase.h */,
+				0D9BBE1E1697010100E3E553 /* PMCellBase.m */,
+			);
+			path = TableViewFramework;
+			sourceTree = "<group>";
+		};
+		0D9BBE181697010100E3E553 /* CellFramework */ = {
+			isa = PBXGroup;
+			children = (
+				0D9BBE191697010100E3E553 /* PMCellFramework.h */,
+				0D9BBE1A1697010100E3E553 /* PMCellFramework.m */,
+				0D9BBE1B1697010100E3E553 /* PMCellProtocols.h */,
+				0D9BBE1C1697010100E3E553 /* PMTableViewDelegate+ProtectedMethods.h */,
+			);
+			path = CellFramework;
+			sourceTree = "<group>";
+		};
+		0D9BBE1F1697010100E3E553 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0D9BBE241697010100E3E553 /* UUIDHelpers */,
+				0D9BBE201697010100E3E553 /* MMBatteryDataHelper.h */,
+				0D9BBE211697010100E3E553 /* MMBatteryDataHelper.m */,
+				0D9BBE221697010100E3E553 /* MMDeviceHelpers.h */,
+				0D9BBE231697010100E3E553 /* MMDeviceHelpers.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0D9BBE241697010100E3E553 /* UUIDHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				0D9BBE251697010100E3E553 /* MMUUIDHelpers.h */,
+				0D9BBE261697010100E3E553 /* MMUUIDHelpers.m */,
+				0D9BBE271697010100E3E553 /* NSString+MD5Addition.h */,
+				0D9BBE281697010100E3E553 /* NSString+MD5Addition.m */,
+				0D9BBE291697010100E3E553 /* UIDevice+IdentifierAddition.h */,
+				0D9BBE2A1697010100E3E553 /* UIDevice+IdentifierAddition.m */,
+			);
+			path = UUIDHelpers;
+			sourceTree = "<group>";
+		};
+		0D9BBE2B1697010100E3E553 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0D9BBE43169701AE00E3E553 /* UIDeviceHardware.h */,
+				0D9BBE44169701AE00E3E553 /* UIDeviceHardware.m */,
+				0D9BBE2C1697010100E3E553 /* MMExceptionUtils.h */,
+				0D9BBE2D1697010100E3E553 /* MMExceptionUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0D9BBE2E1697010100E3E553 /* ModelFramework */ = {
+			isa = PBXGroup;
+			children = (
+				0D9BBE2F1697010100E3E553 /* MMDomainObject.h */,
+				0D9BBE301697010100E3E553 /* MMDomainObjectBase.h */,
+				0D9BBE311697010100E3E553 /* MMDomainObjectBase.m */,
+				0D9BBE321697010100E3E553 /* MMObservableObject+ProtectedMethods.h */,
+				0D9BBE331697010100E3E553 /* MMObservableObject.h */,
+				0D9BBE341697010100E3E553 /* MMObservableObject.m */,
+			);
+			path = ModelFramework;
+			sourceTree = "<group>";
+		};
+		0D9BBE461697021700E3E553 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				0D9BBE471697021700E3E553 /* JSONKit.h */,
+				0D9BBE481697021700E3E553 /* JSONKit.m */,
+			);
+			path = JSONKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +368,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D9BBDF71696FF9B00E3E553 /* SmartPM.m in Sources */,
+				0D9BBE351697010100E3E553 /* PMCellFramework.m in Sources */,
+				0D9BBE361697010100E3E553 /* PMCellBase.m in Sources */,
+				0D9BBE371697010100E3E553 /* MMBatteryDataHelper.m in Sources */,
+				0D9BBE381697010100E3E553 /* MMDeviceHelpers.m in Sources */,
+				0D9BBE391697010100E3E553 /* MMUUIDHelpers.m in Sources */,
+				0D9BBE3A1697010100E3E553 /* NSString+MD5Addition.m in Sources */,
+				0D9BBE3B1697010100E3E553 /* UIDevice+IdentifierAddition.m in Sources */,
+				0D9BBE3C1697010100E3E553 /* MMExceptionUtils.m in Sources */,
+				0D9BBE3D1697010100E3E553 /* MMDomainObjectBase.m in Sources */,
+				0D9BBE3E1697010100E3E553 /* MMObservableObject.m in Sources */,
+				0D9BBE45169701AE00E3E553 /* UIDeviceHardware.m in Sources */,
+				0D9BBE491697021700E3E553 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +434,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -318,7 +454,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -397,6 +533,7 @@
 				0D9BBE131696FF9B00E3E553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D9BBE141696FF9B00E3E553 /* Build configuration list for PBXNativeTarget "SmartPMTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +542,7 @@
 				0D9BBE161696FF9B00E3E553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
